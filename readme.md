@@ -21,7 +21,8 @@ json文档，在"output pdfname"框填入输出的pdf文件名，
 指定文档输出的目标文件夹（若不指定则默认为原文件夹），
 若目标文件夹中有同名文档，将不会覆盖原文档，点击run_bat按钮即可完成转换。
 
-
+## Note 注意事项:
+files2pdf模块需要用到第三方软件[wkhtmltopdf](https://wkhtmltopdf.org/downloads.html),下载软件安装后需将wkhtmltopdf的执行路径（默认为：C:\Program Files\wkhtmltopdf\bin）添加到系统的环境变量。
 ## Todo:
 增加对多种图片格式的支持。
 
